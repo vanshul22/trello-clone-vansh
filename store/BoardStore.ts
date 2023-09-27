@@ -1,6 +1,6 @@
 import { ID, databases, storage } from '@/appwrite/appwrite';
-import { getTodosGroupedByColumn } from '@/lib/getTodosGroupedByColumn';
-import uploadImage from '@/lib/uploadImage';
+import { getTodosGroupedByColumn } from '@/libe/getTodosGroupedByColumn';
+import uploadImage from '@/libe/uploadImage';
 import { Board, Column, Image, Todo, TypedColumn } from '@/typing'
 import { create } from 'zustand'
 

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import SearchAvatarComp from './SearchAvatarComp';
 import { UserCircleIcon } from '@heroicons/react/24/solid';
 import { useBoardStore } from '@/store/BoardStore';
-import fetchSuggestion from '@/lib/fetchSuggestions';
+import fetchSuggestion from '@/libe/fetchSuggestions';
 
 
 const Header = () => {

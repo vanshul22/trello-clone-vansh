@@ -1,5 +1,5 @@
 "use client"
-import getURL from "@/lib/getURL";
+import getURL from "@/libe/getURL";
 import { useBoardStore } from "@/store/BoardStore";
 import { Todo, TypedColumn } from "@/typing";
 import { XCircleIcon } from "@heroicons/react/24/solid";
